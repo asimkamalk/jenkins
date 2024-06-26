@@ -1,0 +1,19 @@
+{
+  "name": "jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"no test specified...\"",
+    "build": "echo \"Building the project...\" && npm install",
+    "pm2-start": "pm2 start index.js --name 'express-app'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pm2": "^5.4.1"
+  }
+}
